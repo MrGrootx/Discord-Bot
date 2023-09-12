@@ -1,6 +1,7 @@
 # Moderation 
-Kick \n
-ban
-timeout
-embed-builder
-server status
+
+# Kick 
+# ban
+# timeout
+# embed-builder
+# server status
