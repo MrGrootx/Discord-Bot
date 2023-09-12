@@ -1,5 +1,5 @@
 # Moderation 
-Kick
+Kick \n
 ban
 timeout
 embed-builder
