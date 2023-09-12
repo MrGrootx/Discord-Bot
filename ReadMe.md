@@ -27,8 +27,8 @@
 
 
 
-    > If you consider using this Bot, make sure to credit me!
-    > Example: `Bot Coded by [Mr Groot#9862](https://discord.gg/dcdev)`
+> If you consider using this Bot, make sure to credit me!
+> Example: `Bot Coded by [Mr Groot#9862](https://discord.gg/dcdev)`
 
 # Contributing
 
