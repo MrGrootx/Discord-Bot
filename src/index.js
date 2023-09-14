@@ -11,7 +11,7 @@ const { Client,
   Partials
 } = require(`discord.js`);
 
-
+const global = require('./events/global');
 
 const fs = require('fs');
 const client = new Client({
@@ -85,6 +85,7 @@ process.on("uncaughtExceptionMonitor", (err, origin) => {
 
 
 
+
 (async () => {
   for (file of functions) {
     require(`./functions/${file}`)(client);
@@ -132,7 +133,7 @@ let rulestatus = [
 ]
 
 client.on('ready', (c) => {
-  console.log(`${client.user.tag} is ready!`)
+  // console.log(`${client.user.tag} is ready!`)
 
 
   setInterval(() => {

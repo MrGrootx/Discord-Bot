@@ -20,15 +20,15 @@
     8. Navigate to the `package.json` file and pay attention to the packages listed under `dependencies`.
     9. Open the terminal inside [Visual Studio Code](https://code.visualstudio.com/download) and install all the packages using `npm i <package-name>`. 
     for instance,
-    ```js
-    npm i discord.js
-    ```
+```js
+ npm i discord.js
+ ```
     10. Click the `run` button inside the terminal and type `node src/index.js` or `node .` to turn the bot online.
 
 
 
-    > If you consider using this Bot, make sure to credit me!
-    > Example: `Bot Coded by [Mr Groot#9862](https://discord.gg/dcdev)`
+> If you consider using this Bot, make sure to credit me!
+> Example: `Bot Coded by [Mr Groot#9862](https://discord.gg/dcdev)`
 
 # Contributing
 

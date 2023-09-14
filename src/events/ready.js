@@ -1,13 +1,19 @@
 
 const mongoose = require('mongoose') 
 const mongodbURL = process.env.MONGODBURL;
+const global = require('../events/global')
+require('colors')
 
 const { client, interaction} = require('discord.js')
 module.exports = {
     name: 'ready',
     once: true,
     async execute(client) {
-        console.log( '\x1b[32m', `Hey i am Ready to go`);
+        global.error(`${client.user.tag}  GOOD TO GO`.white);
+
+        if(!mongodbURL) {
+            global.warn("No database URL found!".red)
+        }
 
         if (!mongodbURL) return;
 
@@ -17,8 +23,10 @@ module.exports = {
             useUnifiedTopology: true
         })
         
+       
+
         if (mongoose.connect) {
-            console.log( '\x1b[33m', "The database is running!")
+            global.info("database Connected".blue)
         }
 
         async function pickPresence () {
