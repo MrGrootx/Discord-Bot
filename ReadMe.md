@@ -1,3 +1,4 @@
+# This is not a multiguild bot Code
 
 # Moderation 
 1. Kick
