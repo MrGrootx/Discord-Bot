@@ -6,6 +6,9 @@
 3. timeout
 4. embed-builder
 5. server status
+6. Embed Builder
+7. DM
+8. Bot Custom Status
 
 
 

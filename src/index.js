@@ -112,37 +112,35 @@ client.on('messageCreate', async message => {
 
 
 // Activity start 
+// IF YOU WANT UNCOMMANT THESE LINES 
+// let rulestatus = [
+//   {
+//     name: "Name 1",
+//     type: ActivityType.Listening,
+//   },
 
-let rulestatus = [
-  {
-    name: "Name 1",
-    type: ActivityType.Listening,
-  },
+//   {
+//     name: "Name 2",
+//     type: ActivityType.Watching,
+//   },
 
-  {
-    name: "Name 2",
-    type: ActivityType.Watching,
-  },
+//   {
+//     name: "Name 3",
+//     type: ActivityType.Streaming,
+//     url: "https://www.twitch.tv/"
+//   }
 
-  {
-    name: "Name 3",
-    type: ActivityType.Streaming,
-    url: "https://www.twitch.tv/"
-  }
+// ]
 
-]
+// client.on('ready', (c) => {
 
-client.on('ready', (c) => {
-  // console.log(`${client.user.tag} is ready!`)
+//   setInterval(() => {
+//     let random = Math.floor(Math.random() * rulestatus.length)
+//     client.user.setActivity(rulestatus[random])
+//   }, 10000)
+// })
 
-
-  setInterval(() => {
-    let random = Math.floor(Math.random() * rulestatus.length)
-    client.user.setActivity(rulestatus[random])
-  }, 10000)
-})
 // Activity end
-
 
 
 
