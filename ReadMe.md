@@ -9,6 +9,7 @@
 6. Embed Builder
 7. DM
 8. Bot Custom Status
+9. userinfo
 
 
 
