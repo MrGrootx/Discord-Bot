@@ -10,6 +10,7 @@
 7. DM
 8. Bot Custom Status
 9. userinfo
+10. role info
 
 
 
