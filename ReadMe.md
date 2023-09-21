@@ -12,7 +12,9 @@
 9. userinfo
 10. role info
 11. calculator
-
+12. kiss
+13. hug
+14. slap
 
 ```js
  npm i discord.js
