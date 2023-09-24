@@ -16,7 +16,7 @@
 13. hug
 14. slap
 15. password-generator
-16. 
+16. chess-puzzle
 
 ```js
  npm i discord.js
