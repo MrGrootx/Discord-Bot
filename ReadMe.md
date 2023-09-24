@@ -15,6 +15,7 @@
 12. kiss
 13. hug
 14. slap
+15. password-generator
 
 ```js
  npm i discord.js
